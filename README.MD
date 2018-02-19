@@ -12,7 +12,7 @@ npm start
 
 App will be available at Availaible at: http://localhost:3333
 
-#Running Tests (Using Jest and Enzyme)
+## Running Tests (Using Jest and Enzyme)
 
 npm run test
 
