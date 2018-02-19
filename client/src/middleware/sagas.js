@@ -16,7 +16,7 @@ export function* jobsDataSaga() {
     yield* takeEvery(JOB_ACTIONS.FETCH_JOBS, fetchJobs);
 }
 
-function* fetchJob(action) {
+function* loadJobDetail(action) {
     const data = yield call(getJob, action.jobId);
     if (data) {
         yield put({type: JOB_ACTIONS.JOB_FETCH_SUCCEEDED, data});
@@ -25,13 +25,13 @@ function* fetchJob(action) {
     }
 }
 
-export function* fetchJobSaga() {
-    yield* takeEvery(JOB_ACTIONS.FETCH_JOB, fetchJob);
+export function* jobDetailSaga() {
+    yield* takeEvery(JOB_ACTIONS.LOAD_JOB_DETAIL, loadJobDetail);
 }
 
 export function* rootSaga() {
     yield [
         fork(jobsDataSaga),
-        fork(fetchJobSaga)
+        fork(jobDetailSaga)
     ];
 }

@@ -24,13 +24,13 @@ describe('Job actions', () => {
     expect(actions.viewJob(jobId)).toEqual(expectedAction);
   });
   
-  it('should create an action to fetch a Job', () => {
+  it('should create an action to load Job detail', () => {
     const jobId = 1;
     const expectedAction = {
-      type: JOB_ACTIONS.FETCH_JOB,
+      type: JOB_ACTIONS.LOAD_JOB_DETAIL,
       jobId
     }
-    expect(actions.fetchJob(jobId)).toEqual(expectedAction);
+    expect(actions.loadJobDetail(jobId)).toEqual(expectedAction);
   });
   
   it('should create an action to clear Job detail', () => {

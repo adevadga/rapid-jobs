@@ -6,9 +6,8 @@ import createSagaMiddleware from 'redux-saga'
 import { BrowserRouter } from 'react-router-dom';
 import { AppContainer } from 'react-hot-loader';
 import reducers from './reducers/index';
-import App from './app';
+import App from './App';
 import {rootSaga} from './middleware/sagas'
-
 
 // create the saga middleware
 const sagaMiddleware = createSagaMiddleware();

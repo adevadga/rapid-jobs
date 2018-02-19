@@ -11,12 +11,11 @@ export const viewJob = jobId => ({
 });
 
 export const fetchJobs = () => ({
-  type: JOB_ACTIONS.FETCH_JOBS,
-  name
+  type: JOB_ACTIONS.FETCH_JOBS
 });
 
-export const fetchJob = jobId => ({
-  type: JOB_ACTIONS.FETCH_JOB,
+export const loadJobDetail = jobId => ({
+  type: JOB_ACTIONS.LOAD_JOB_DETAIL,
   jobId
 });
 

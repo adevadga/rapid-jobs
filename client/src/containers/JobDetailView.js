@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { fetchJob, clearJobDetail } from '../actions/jobActions';
+import { loadJobDetail, clearJobDetail } from '../actions/jobActions';
 import JobDetailView from '../components/JobDetailView';
 
 const mapStateToProps = state => ({
@@ -7,8 +7,8 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  fetchJob: (jobId) => {
-    dispatch(fetchJob(jobId));
+  loadJobDetail: (jobId) => {
+    dispatch(loadJobDetail(jobId));
   },
   clearJobDetail: (jobId) => {
     dispatch(clearJobDetail(jobId));

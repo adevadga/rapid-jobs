@@ -5,9 +5,9 @@ import SimpleList from './grid/SimpleList';
 class JobList extends React.Component {
   
   static propTypes = {
-      jobs: PropTypes.array.isRequired,
-      viewJob: PropTypes.func.isRequired,
-      fetchJobs: PropTypes.func.isRequired
+    jobs: PropTypes.array.isRequired,
+    viewJob: PropTypes.func.isRequired,
+    fetchJobs: PropTypes.func.isRequired
   }
   
   constructor(props) {

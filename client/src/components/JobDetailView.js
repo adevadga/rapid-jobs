@@ -10,7 +10,7 @@ class JobDetailView extends React.Component {
   
   componentWillMount = () => {
       const jobId = this.props.jobId;
-      this.props.fetchJob(jobId);
+      this.props.loadJobDetail(jobId);
   }
   
   handleBackClick = () => {

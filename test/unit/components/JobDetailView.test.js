@@ -14,10 +14,10 @@ describe('Component - JobDetailView',()=>{
     const jobDetail = {"jobDetail": jobsData.jobs[0]},
         mockClearJobDetail = jest.fn(),
         mockHandleBackClick = jest.fn(),
-        mockFetchJob = jest.fn();
+        mockLoadJobDetail = jest.fn();
         
     beforeEach(() => {
-        wrapper = mount(<JobDetailView jobDetail={jobDetail} fetchJob={mockFetchJob} clearJobDetail={mockClearJobDetail} handleBackClick={mockHandleBackClick}/>);
+        wrapper = mount(<JobDetailView jobDetail={jobDetail} loadJobDetail={mockLoadJobDetail} clearJobDetail={mockClearJobDetail} handleBackClick={mockHandleBackClick}/>);
     })
     
     afterEach(() => {
@@ -33,8 +33,8 @@ describe('Component - JobDetailView',()=>{
        expect(wrapper.find('.backBtn')).toHaveLength(1);
     });
     
-    it('Should invoke fetchJob API upon mount', () => {
-       expect(mockFetchJob).toHaveBeenCalled();
+    it('Should invoke loadJobDetail API upon mount', () => {
+       expect(mockLoadJobDetail).toHaveBeenCalled();
     });
     
     it('Should invoke handleBackClick method when Back button is clicked.', () => {
