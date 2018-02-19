@@ -12,22 +12,20 @@ class NavigationItems extends React.Component {
        <div className="nav-container">
          <div className="nav-inner">
             <div className="advancedmenu">
-            
-                <div className="menu " id="home">
-                  <div className="parentMenu menu0 home_link active">
-                        <Link to='/'><span>Home</span></Link>
-                   </div>
-                </div>
-                
-                <div id="menu3" className="menu">
+                <div id="menu1" className="menu">
                     <div className="parentMenu">
-                        <Link to='/jobs'><span>Jobs</span></Link>
+                        <Link to='/'><span>Jobs</span></Link>
+                    </div>
+                </div>
+                <div id="menu2" className="menu">
+                    <div className="parentMenu">
+                        <Link to='/recruiters'><span>Recruiters</span></Link>
                     </div>
                 </div>
                 
                 <div id="menu3" className="menu">
                     <div className="parentMenu">
-                        <Link to='/recruiters'><span>Recruiters</span></Link>
+                        <Link to='/about'><span>About Us</span></Link>
                     </div>
                 </div>
                 

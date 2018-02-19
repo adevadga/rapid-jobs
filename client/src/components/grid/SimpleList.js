@@ -57,7 +57,6 @@ class SimpleList extends React.Component {
            </JobInfo>
           </li>
         </Link>
-        
       );
   }
   

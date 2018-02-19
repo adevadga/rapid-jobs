@@ -6,6 +6,7 @@ import HomePage from './components/HomePage';
 import DetailView from './components/DetailView';
 import NavigationItems from './components/NavigationItems';
 import Recruiters from './components/Recruiters';
+import AboutUs from './components/AboutUs';
 
 class App extends React.Component {
   constructor(props) {
@@ -20,6 +21,7 @@ class App extends React.Component {
         <Route exact path="/" component={HomePage} />
         <Route exact path="/jobs" component={HomePage} />
         <Route exact path="/recruiters" component={Recruiters} />
+        <Route exact path="/about" component={AboutUs} />
         <Route exact path="/job/:jobId" component={DetailView} />
       </div>
     );
