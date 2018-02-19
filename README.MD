@@ -8,11 +8,9 @@ git clone rapid-jobs
 
 cd rapid-jobs
 
-npm install
-
 npm start
 
-App will be available at Availaible at: http://localhost:3000
+App will be available at Availaible at: http://localhost:3333
 
 #Running Tests (Using Jest and Enzyme)
 
