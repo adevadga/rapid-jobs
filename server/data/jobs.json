@@ -1,0 +1,51 @@
+{
+	"jobs": [{
+		"jobId": 1,
+		"jobTitle": "Software Engineer",
+		"companyName": "Windmill Inc.",
+		"jobDescription": "SMTS/Principal ASIC Design Engineer - PCI Design and Integration",
+		"education": "Graduate Degree in Electrical/Electronics Engg. (post Graduate is a plus)",
+		"keySkills": "verilog, rtl coding, asic design, static timing analysis, digital design...",
+	  "skills": "- 8-20 years of ASIC RTL Design experience and Verilog/System Verilog proficiency- Experience with multiple clock and power domains- Extensive experience in integration and validation of high speed PCIe IP core- Experience with PCIe protocol analyzers and debug- Familiarity with PCIe driver and application software for Linux/Windows",
+		"location": "Bangalore India",
+		"salary": "Not Disclosed by Recruiter",
+		"industry": "Semiconductors / Electronics",
+		"functionalArea": "IT Software - Embedded , EDA , VLSI , ASIC , Chip Design",
+		"role": "Team Lead/Technical Lead",
+		"employementType": "Permanent Job, Full Time",
+		"companyProfile": "Its a leading developer, and global supplier of high-speed connectivity solutions for data centers, enterprise and WLAN applications. The transition to 10 Gb Ethernet and Multi - Gig Ethernet is currently underway,driven by the consolidation of data in the cloud and the mobile revolution.Its 10 GBASE - T and AQrate PHY product lines lead the market with low - power,high - performance,and high - density silicon solutions ",
+		"avatar": "http://materializecss.com/images/yuna.jpg"
+	}, {
+		"jobId": 2,
+		"jobTitle": "Manager Indirect Taxation, Manager Direct Taxation",
+		"companyName": "AntomechTurbo Technologies India Private Limited",
+		"jobDescription": "Manage reporting, tax audit and compliance. Corporate & international tax advice",
+    "education": "Graduate Degree in Commerce",
+		"keySkills": "direct tax, international taxation, auditing, finance, indirect taxation...",
+    "skills": "Ability to develop and maintain positive working relationship with Company Staff.Good communication skills.Good team player.A good Communicator With Self-Motivated.",
+    "location": "Mumbai India",
+		"salary": "Not Disclosed by Recruiter",
+		"industry": "Automobile / Auto Anciliary / Auto Components",
+		"functionalArea": "Accounts , Finance , Tax , Company Secretary , Audit",
+		"role": "Accounts Manager",
+		"employementType": "Permanent Job, Full Time",
+		"companyProfile": "AntomechTurbo Technologies India Private Limited Manufacturing of Vibratory Feeders and Conveyors, Material Handling Conveyors, vibrator table, Vibratory Bowl Feeding, Drilling SPM, Automatic Drilling Machine, Pick n Place Units etc.",
+		"avatar": "http://materializecss.com/images/yuna.jpg"
+	}, {
+    "jobId": 3,
+		"jobTitle": "Executive/officer - AV Sales",
+		"companyName": "IPundit Management Solutions",
+		"jobDescription": "Manage reporting, tax audit and compliance. Corporate & international tax advice",
+    "education": "Graduate Degree in Commerce",
+		"keySkills": "av sales, audio visual sales, audio visual marketing, Market Intelligence...",
+    "skills": "Achieving business targets of Sales Volume, Throughput,Outstanding & Stock as per norms of AV products and solutionsMaintaining relationship with Architects, A V Consultant and Project Management Consultant Appoint, Account development,",
+    "location": "Mumbai India",
+		"salary": "Not Disclosed by Recruiter",
+		"industry": "Architecture / Interior Design",
+		"functionalArea": "Sales , Retail , Business Development",
+		"role": "Sales Executive/Officer",
+		"employementType": "Permanent Job, Full Time",
+		"companyProfile": "IPundit Management Solutions is integrated Human Resource Management service organization, believes in providing effective Staffing Solutions to our clients to the best of their satisfaction.",
+		"avatar": "http://materializecss.com/images/yuna.jpg"
+	}]
+}
