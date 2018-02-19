@@ -3,14 +3,11 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware} from 'redux';
 import createSagaMiddleware from 'redux-saga'
-import {
-  BrowserRouter,
-} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { AppContainer } from 'react-hot-loader';
 import reducers from './reducers/index';
 import App from './app';
 import {rootSaga} from './middleware/sagas'
-
 
 
 // create the saga middleware

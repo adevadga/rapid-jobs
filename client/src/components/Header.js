@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 import logo from '../../res/images/rapidJobLogo.png';
 import NavigationItems from './NavigationItems';
 
@@ -8,12 +9,13 @@ class Header extends React.Component {
   }
   
   render() {
+    const Logo = styled.div`
+      box-shadow: 5px 10px;
+    `;
     return (
-      <div style={{ marginTop: 20 }} className="header">
-      <div className="logo">
-          <img src={logo} alt="react logo" />
-      </div>
-    </div>
+      <Logo>
+          <img src={logo} alt="Rapid Jobs" />
+      </Logo>
     );
   }
 }

@@ -8,13 +8,20 @@
     "build": "npm run build:client && npm run build:server",
     "build:server": "cross-env NODE_ENV=production webpack --config webpack/server.prod.js --progress",
     "build:client": "cross-env NODE_ENV=production webpack --config webpack/client.prod.js --progress",
-    "start": "cd server && node bin/server.js",
+    "start": "npm run build:client && npm run build:server && cd server && node bin/server.js",
     "lint": "eslint --ext .jsx,.js ./",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adevadga/rapid-jobs"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ]
   },
   "author": "Anoop Devadiga",
   "license": "Anoop",
@@ -61,7 +68,10 @@
     "react-addons-test-utils": "^15.4.1",
     "react-test-renderer": "^15.4.1",
     "redux-mock-store": "^1.2.1",
-    "styled-components": "latest"
+    "styled-components": "latest",
+    "react-styled-flexbox": "latest",
+    "styled-grid-component": "latest",
+    "styled-css-grid": "latest"
   },
   "bundledDependencies": [
     "cross-env",

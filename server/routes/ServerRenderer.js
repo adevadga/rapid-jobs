@@ -11,9 +11,9 @@ import App from '../../client/src/app';
 
 const router = express.Router();
 
+//Handle fetching of all availaible jobs. No pagination as of now
 router.get('/jobs', (req, res) => {
     res.send(jobsData);
-    //res.end();
 });
 
 router.get('/job/:jobId', (req, res) => {
@@ -22,16 +22,14 @@ router.get('/job/:jobId', (req, res) => {
     for (let job of jobs) {
         if (jobId === job.jobId) {
             return res.send(job);
-            //res.end();
         }
     }
     
     res.send("Invalid job id");
-    //res.end();
 });
 
+
 router.get('/', (req, res) => {
-  
   const store = createStore(reducers);
 
   //dispatch action from server side to inject some initial data. Add a sample job here.

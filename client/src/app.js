@@ -18,6 +18,7 @@ class App extends React.Component {
         <Header />
         <NavigationItems />
         <Route exact path="/" component={HomePage} />
+        <Route exact path="/jobs" component={HomePage} />
         <Route exact path="/recruiters" component={Recruiters} />
         <Route exact path="/job/:jobId" component={DetailView} />
       </div>

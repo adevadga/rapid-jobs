@@ -1,11 +1,16 @@
 import { JOB_ACTIONS } from '../consts/actionTypes';
 
-export const viewJob = name => ({
-  type: JOB_ACTIONS.VIEW_JOB,
-  name
+export const addJob = jobData => ({
+  type: JOB_ACTIONS.ADD_JOB,
+  jobData
 });
 
-export const fetchJobs = name => ({
+export const viewJob = jobId => ({
+  type: JOB_ACTIONS.VIEW_JOB,
+  jobId
+});
+
+export const fetchJobs = () => ({
   type: JOB_ACTIONS.FETCH_JOBS,
   name
 });

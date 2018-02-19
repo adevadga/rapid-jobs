@@ -52,7 +52,7 @@ describe('Component - JobList - Connected components',()=>{
     });
 
     it('Check Prop matches with initialState', () => {
-       expect(container.prop('jobs')).toEqual(initialState.jobs);
+       expect(container.props().jobs).toEqual(initialState.jobs);
     });
 
 });

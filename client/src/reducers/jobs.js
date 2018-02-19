@@ -20,10 +20,10 @@ export default (state = [], action) => {
          avatar: action.job.avatar,
        }
      ]  
-    case "JOBS_DATA_FETCH_SUCCEEDED":
+    case JOB_ACTIONS.JOBS_DATA_FETCH_SUCCEEDED:
         return  [...action.data];
-    case "JOBS_DATA_FETCH_FAILED":
-        return  [...action.data];
+    case JOB_ACTIONS.JOBS_DATA_FETCH_FAILED:
+        return  [...state];
     default:
       return state;
   }

@@ -1,12 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import SimpleList from './grid/SimpleList';
 
 class JobList extends React.Component {
   
   static propTypes = {
-      jobs: React.PropTypes.array.isRequired,
-      viewJob: React.PropTypes.func.isRequired,
-      fetchJobs: React.PropTypes.func.isRequired
+      jobs: PropTypes.array.isRequired,
+      viewJob: PropTypes.func.isRequired,
+      fetchJobs: PropTypes.func.isRequired
   }
   
   constructor(props) {

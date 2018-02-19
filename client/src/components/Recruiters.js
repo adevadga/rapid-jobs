@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 
 class Recruiters extends React.Component {
   constructor(props) {
@@ -6,8 +7,18 @@ class Recruiters extends React.Component {
   }
   
   render() {
+    const Recruiters = styled.ul`
+        text-decoration: none;
+    `;
      return(
-       <div> List Info about Recuiters here </div>
+       <div>
+         <h2> Recruiters </h2>
+         <Recruiters>
+            <li>Recruiter - 1</li>
+            <li>Recruiter - 2</li>
+            <li>Recruiter - 3</li>
+         </Recruiters>
+       </div>
      );
   }
     

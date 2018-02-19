@@ -1,74 +1,7 @@
-@import './palette.scss';
-@import './home.scss';
-@import './view_item.scss';
-@import './list_item.scss';
+@import './variables.scss';
+@import './jobs.scss';
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600|Roboto:100,300');
-
-.container{
-  width:100%;
-  text-align:center;
-  display: flex;
-  flex-direction: row;
-}
-.left-container {
-  width:20%
-}
-.left-container {
-  width:20%
-}
-.react-container {
-  width:60%;
-  background-color: $color5;
-}
-
-.nav-container .description a{color:#2271B2;padding:2px 0;}
-.nav-container .description a:hover{color:#000000;}
-.nav-container{margin-bottom:0px;}
-.nav-container{margin-bottom:0px;}
-
-
-.advancedmenu {
-  background: #0d5aac; 
-  background: -moz-linear-gradient(top, #3175c0 0%, #0d5aac 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3175c0), color-stop(100%, #0d5aac)); 
-  background: -webkit-linear-gradient(top, #3175c0 0%, #0d5aac 100%); 
-  background: #124375;
-  height: 47px;
-  padding: 0 5px;
-  border: 1px solid #DBDBDB;
-  box-shadow: 0 2px 2px -1px #FFF inset;
-  -webkit-box-shadow: 0 2px 2px -1px #FFF inset;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  line-height: 100px;
-}
-
-div.menu a {
-  color: #ffffff;
-  //font-size: 14px;
-  text-decoration: none;
-  padding: 12px 20px 9px;
-}
-
-.parentMenu {
-  border-left: 1px solid #ffffff;
-}
-// .nav-inner, .main, .footer, .header-bottom, .header_top, .special_navigation, .inner_sub_cms, .footer_bottom_link, .footer_top{width:980px;}
-// 
-// .nav-inner, .main, .footer,.header-bottom,.header_top,.special_navigation,.footer_bottom_link,.footer_top{width:724px;}
-// 
-// .nav-inner, .main, .footer, .header-bottom, .header_top, .cms-home .special_navigation, .footer_bottom_link, .special_navigation, .footer_top{width:auto;margin:0 15px;}
-// 
-// #advancedmenu .megnor-advanced-menu-popup .itemMenu a{font-weight:normal;font-size:14px;}
-// #advancedmenu .level1 > a.itemMenuName ,.advance_menu .product_name{font-size:15px;font-weight:bold;color:#424243;border-bottom:1px solid #D3D3D3;margin-bottom:6px;}
-// 
-// #advancedmenu .parentMenu.home_link a{font-size:0px;background:url("../../images/sprite.png") no-repeat scroll 0 -847px transparent;width:2px;}
-// 
-// #advancedmenu .level1 > a.itemMenuName, .advance_menu .product_name{font-size:14px;}
-// #advancedmenu .megnor-advanced-menu-popup .itemMenu a{font-weight:normal !important;}
-
 
 html {
   font-size: 1.5rem;
@@ -116,4 +49,54 @@ div, p, span {
 .nav-items {
   display: flex;
   flex-direction: row;
+}
+
+.container{
+  width:100%;
+  text-align:center;
+  display: flex;
+  flex-direction: row;
+}
+.left-container {
+  width:20%
+}
+.left-container {
+  width:20%
+}
+.react-container {
+  width:60%;
+  background-color: $color5;
+}
+
+.nav-container .description a{color:#2271B2;padding:2px 0;}
+.nav-container .description a:hover{color:#000000;}
+.nav-container{margin-bottom:0px;}
+.nav-container{margin-bottom:0px;}
+
+
+.advancedmenu {
+  background: #0d5aac; 
+  background: -moz-linear-gradient(top, #3175c0 0%, #0d5aac 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3175c0), color-stop(100%, #0d5aac)); 
+  background: -webkit-linear-gradient(top, #3175c0 0%, #0d5aac 100%); 
+  background: #124375;
+  height: 47px;
+  padding: 0 5px;
+  border: 1px solid #DBDBDB;
+  box-shadow: 0 2px 2px -1px #FFF inset;
+  -webkit-box-shadow: 0 2px 2px -1px #FFF inset;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  line-height: 100px;
+}
+
+div.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px 9px;
+}
+
+.parentMenu {
+  border-left: 1px solid #ffffff;
 }
