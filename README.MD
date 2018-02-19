@@ -4,7 +4,9 @@ Rapid Jobs - Jobs at your finger tips
 
 Node Version: v8.3.0
 
-Just clone this repo `cd` into the directory and run
+
+git clone rapid-Jobs
+cd rapid-jobs
 
 npm install
 npm start
