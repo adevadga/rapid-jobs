@@ -22,3 +22,10 @@ npm run test
 To develop app with hot reload:
 npm run dev
 http://localhost:8080
+
+
+Things to add
+
+Pagination support
+Loading Image
+Responsive etc
