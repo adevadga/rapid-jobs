@@ -5,10 +5,12 @@ Rapid Jobs - Jobs at your finger tips
 Node Version: v8.3.0
 
 
-git clone rapid-Jobs
+git clone rapid-jobs
+
 cd rapid-jobs
 
 npm install
+
 npm start
 
 App will be available at Availaible at: http://localhost:3000
